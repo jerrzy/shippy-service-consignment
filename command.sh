@@ -6,6 +6,17 @@
 # 1.3  open /etc/profile, add export PATH=$PATH:/usr/local/go/bin, source /etc/profile
 # 1.4  go version
 
+# 2. git clone a branch
+# 2.1 git clone -b master https://github.com/jerrzy/microservice-demo.git
+
+# 3. install gRPC
+# 3.1 apt install -y protobuf-compiler
+# 3.2 go get github.com/golang/protobuf/protoc-gen-go
+# 3.3 go get github.com/micro/micro/v3/cmd/protoc-gen-micro
+# 3.4 test it by protoc
+
+# 4 run micro
+# 4.1 
 
 # NOTE! New to protoc!
 # google deprecated grpc plugin, 
