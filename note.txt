@@ -1,0 +1,14 @@
+1. apparently micro v3 is completely different to micro v2. everything in the post doesn't even compile under v3.
+2. have to delete v3 exe for being able to use v2 go dependencies. for sure the micro.exe and protoc-gen-micro.exe on micro v3 are quite different to micro v2.
+    the v3 imports micro v3 go dependencies to the go files.
+    the v2 imports micro v2 go dependencies to the go files.
+3. places to get help
+    golang.org
+    pkg.go.dev
+    go.dev
+    godoc.org
+    Gopher Slack
+    golang-nuts
+    Go wiki: github.com/golang/wiki
+    gobyexample.com
+    The Go blog: blog.golang.org
