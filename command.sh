@@ -35,8 +35,7 @@ protoc --proto_path=. --go_out=. --micro_out=. proto/consignment/consignment.pro
 # build the image
 docker build -t shippy-service-consignment .
 # run the image
-docker run -p 50051:50051 shippy-service-consignment
-
+docker run -p 50051:50051 -e MICRO_SERVER_ADDRESS=:50051 shippy-service-consignment
 # don't know why have to use an older version of grpc for micro
 replace google.golang.org/grpc => google.golang.org/grpc v1.26.0
 
